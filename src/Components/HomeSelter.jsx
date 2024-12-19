@@ -325,7 +325,7 @@ const HomeSelter = () => {
         shouldCloseOnOverlayClick={true}
       >
         <button onClick={closeModal} className="close-button">&times;</button>
-        <img src="public/Housing-pop-up.jpg" alt="Welcome Popup" className="modal-image" />
+        <img src="/Housing-pop-up.jpg" alt="Welcome Popup" className="modal-image" />
       </Modal>
 
       {/* Main Content */}
