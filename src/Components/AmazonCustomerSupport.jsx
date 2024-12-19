@@ -269,7 +269,7 @@ function AmazonCustomerSupport() {
 
           {/* Image */}
           <div className="lg:w-1/4 mb-8 lg:mb-0">
-            <img src="public/amazonCustomerCare.png" alt="Customer Support Illustration" className="w-full h-auto" />
+            <img src="/amazonCustomerCare.png" alt="Customer Support Illustration" className="w-full h-auto" />
           </div>
         </div>
       </header>

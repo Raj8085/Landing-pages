@@ -322,13 +322,13 @@ import UtilitiesCustomerSupport from "./Components/UtilitiesCustomerSupport"
 const App = () => {
   return (
     <div>
-      {/* <LegalConsultant/> */}
+      <LegalConsultant/>
       <HomeSelter/>
-      {/* <ContentConsumer/> */}
-      {/* <EntertainmentHub/> */}
-      {/* <UtilitiesCustomerSupport/> */}
-      {/* <TechnologyCybersecuritySupport/> */}
-      {/* <AmazonCustomerSupport/> */}
+      <ContentConsumer/>
+      <EntertainmentHub/>
+      <UtilitiesCustomerSupport/>
+      <TechnologyCybersecuritySupport/>
+      <AmazonCustomerSupport/>
     </div>
   )
 }
