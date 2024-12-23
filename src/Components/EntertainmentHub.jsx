@@ -1,4 +1,3 @@
-import React from 'react';
 
 function EntertainmentHub() {
   return (
@@ -10,53 +9,52 @@ function EntertainmentHub() {
           Your ultimate guide to TV shows, streaming services, and cable TV options.
         </p>
       </header> */}
+<header
+  className="w-full bg-cover bg-center bg-gradient-to-r from-purple-900 to-pink-800 text-white py-16 px-4 relative overflow-hidden"
+  style={{
+    backgroundImage: `url('/IN-en-20241216-TRIFECTA-perspective_915a9055-68ad-4e81-b19a-442f1cd134dc_small.jpg')`,
+  }}  
+>
+  {/* Decorative Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
 
-<header className="bg-gradient-to-r from-purple-900 to-pink-800 text-white py-16 px-4 relative overflow-hidden">
-      {/* Decorative SVG Waves */}
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-transparent to-white opacity-20">
-        <svg viewBox="0 0 1440 320">
-          <path
-            fill="currentColor"
-            d="M0,224L48,208C96,192,192,160,288,138.7C384,117,480,107,576,112C672,117,768,139,864,154.7C960,171,1056,181,1152,186.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
+  <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between relative z-10">
+    {/* Text Content */}
+    <div className="lg:w-1/2 text-center lg:text-left">
+      <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
+        Welcome to Entertainment Hub
+      </h1>
+      <p className="text-lg md:text-xl mb-6 drop-shadow-md font-serif">
+        Your ultimate guide to TV shows, streaming services, and cable TV options.
+      </p>
+      <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
+        <a
+          href="#services"
+          className="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100 transition transform hover:scale-105"
+        >
+          Explore Services
+        </a>
+        <a
+          href="#contact"
+          className="bg-purple-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-purple-800 transition transform hover:scale-105"
+        >
+          Contact Us
+        </a>
       </div>
+    </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
-        {/* Text Content */}
-        <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
-            Welcome to Entertainment Hub
-          </h1>
-          <p className="text-lg md:text-xl mb-6 drop-shadow-md font-serif">
-            Your ultimate guide to TV shows, streaming services, and cable TV options.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
-            <a
-              href="#services"
-              className="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100 transition transform hover:scale-105"
-            >
-              Explore Services
-            </a>
-            <a
-              href="#contact"
-              className="bg-purple-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-purple-800 transition transform hover:scale-105"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
+    {/* Image */}
+    <div className="lg:w-1/4 mb-8 lg:mb-0">
+      {/* <img
+        src="public/EntertaimentHub.jpeg"
+        alt="Entertainment Illustration"
+        className="w-full h-auto rounded-lg shadow-lg"
+      /> */}
+    </div>
+  </div>
+</header>
 
-        {/* Image */}
-        <div className="lg:w-1/4 mb-8 lg:mb-0">
-          <img
-            src="public/EntertaimentHub.jpeg"
-            alt="Entertainment Illustration"
-            className="w-full h-auto rounded-lg shadow-lg"
-          />
-        </div>
-      </div>
-    </header>
+
 
       {/* Navigation */}
       <nav className="bg-blue-900 text-white flex flex-wrap justify-center p-4 shadow-md">

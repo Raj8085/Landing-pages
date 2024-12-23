@@ -4,7 +4,7 @@
 import AmazonCustomerSupport from "./Components/AmazonCustomerSupport"
 import ContentConsumer from "./Components/ContentConsumer"
 import EntertainmentHub from "./Components/EntertainmentHub"
-import HomeSelter from "./Components/HomeSelter"
+// import HomeSelter from "./Components/HomeSelter"
 import LegalConsultant from "./Components/LegalConsultant"
 import TechnologyCybersecuritySupport from "./Components/TechnologyCybersecuritySupport"
 import UtilitiesCustomerSupport from "./Components/UtilitiesCustomerSupport"
@@ -322,13 +322,14 @@ import UtilitiesCustomerSupport from "./Components/UtilitiesCustomerSupport"
 const App = () => {
   return (
     <div>
-      <LegalConsultant/>
-      <HomeSelter/>
-      <ContentConsumer/>
-      <EntertainmentHub/>
-      <UtilitiesCustomerSupport/>
-      <TechnologyCybersecuritySupport/>
-      <AmazonCustomerSupport/>
+      
+       {/* <LegalConsultant/>  */}
+    
+     {/* <ContentConsumer/> */}
+      {/* <EntertainmentHub/> */}
+     {/* <UtilitiesCustomerSupport/>  */}
+     <TechnologyCybersecuritySupport/> 
+     {/* <AmazonCustomerSupport/> */}
     </div>
   )
 }

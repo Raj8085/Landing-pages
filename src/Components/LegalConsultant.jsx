@@ -5,10 +5,22 @@ function LegalConsultant() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <header className="bg-blue-700 text-white text-center py-8 shadow-md">
+      {/* <header className="bg-blue-700 text-white text-center py-8 shadow-md">
         <h1 className="text-4xl font-bold">Legal & Consultancy Customer Support</h1>
         <p className="mt-2 text-lg">Expert advice and assistance for all your legal and consultancy needs.</p>
-      </header>
+      </header> */}
+
+<header className="bg-blue-700 text-white text-center py-8 px-4 sm:px-6 lg:px-8 shadow-md w-full">
+  <div className="max-w-screen-xl mx-auto">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+      Legal & Consultancy Customer Support
+    </h1>
+    <p className="mt-2 text-base sm:text-lg md:text-xl">
+      Expert advice and assistance for all your legal and consultancy needs.
+    </p>
+  </div>
+</header>
+
 
       {/* Main Container */}
       <div className="container mx-auto px-4 py-8 flex-grow">

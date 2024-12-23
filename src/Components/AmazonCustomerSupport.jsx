@@ -242,9 +242,9 @@ function AmazonCustomerSupport() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-2">
       {/* Header */}
-      <header className="bg-gradient-to-r from-yellow-300 to-orange-500 text-white py-10 px-4">
+      <header className="w-full bg-gradient-to-r from-yellow-300 to-orange-500 text-white py-2 px-4">
         <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
           {/* Text Content */}
           <div className="lg:w-1/2">

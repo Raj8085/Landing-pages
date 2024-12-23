@@ -5,7 +5,7 @@ function UtilitiesCustomerSupport() {
       {/* Header */}
 
 
-      <header className="bg-gradient-to-r from-teal-500 to-green-500 text-white text-center py-16 relative overflow-hidden">
+      <header className="w-full bg-gray-700 text-white text-center py-16 relative overflow-hidden">
   {/* Decorative SVG Background */}
   <div className="absolute inset-0 opacity-10">
     <svg
@@ -29,7 +29,7 @@ function UtilitiesCustomerSupport() {
     <div className="mt-8 flex justify-center space-x-4">
       <a
         href="#contact"
-        className="bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-105"
+        className="bg-teal-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-105"
       >
         Get Support
       </a>
@@ -110,12 +110,12 @@ function UtilitiesCustomerSupport() {
             >
               Internet & Cable
             </a>
-            <a
+            {/* <a
               href="#contact"
-              className="text-gray-700 hover:text-indigo-600 transition-colors text-lg font-medium"
+              className="text-gray-700 hover:text-indigo-600 transition-colors text-lg"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
