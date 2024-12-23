@@ -294,7 +294,7 @@ const HomeSelter = () => {
   return (
     <>
       {/* Header */}
-      <header>
+      <header className='w-full'>
         <div className="nav-container">
           <div className="nav-logo">Home Shelter</div>
           <ul className="nav-links">
