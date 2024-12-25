@@ -103,27 +103,22 @@ const HomeSelter = () => {
         className="fixed left-0 right-0 top-0 bottom-0 z-[1001] flex items-center justify-center"
         overlayClassName="fixed inset-0 z-[1000] flex items-center justify-center bg-black bg-opacity-50"
       >
-        <div className="relative mx-auto flex max-w-[50rem] items-center justify-center">
-          <button
-            onClick={closeModal}
-            className="absolute right-2 top-2 z-[1002] text-2xl text-white transition-colors duration-300 hover:text-red-500"
-          >
-            &times;
-          </button>
-         
- 
-    <div className="relative flex justify-center items-center">
+          <div className="relative flex justify-center items-center">
       {/* Background Image */}
       <img
         src="/Housing-pop-up-no-number.jpg"
         alt="Expert Support"
-        className="w-full h-auto object-cover max-h-[90vh] sm:max-h-[70vh] md:max-h-[60vh] rounded-lg"
+        className="w-full h-auto object-cover max-h-[90vh] rounded-lg"
       />
 
       {/* Support Number */}
       <a
         href="tel:+10865449042"
-        className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-8  sm:px-4 sm:py-2 md:px-6 md:py-3 rounded-full text-base sm:text-lg md:text-xl font-semibold shadow-lg hover:bg-blue-700"
+        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-3 py-2 sm:px-4 sm:py-2 md:px-6 md:py-3 rounded-full text-sm sm:text-lg md:text-xl font-semibold shadow-lg hover:bg-blue-700"
+        style={{
+          wordBreak: "break-word",
+          whiteSpace: "nowrap",
+        }}
         onClick={(e) => {
           e.preventDefault();
           // Trigger keyboard input for phone number
@@ -133,10 +128,8 @@ const HomeSelter = () => {
         +108-654-49042
       </a>
     </div>
-  
 
 
-        </div>
       </Modal>
 
       {/* Main Content */}
