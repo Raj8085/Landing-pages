@@ -413,28 +413,13 @@ function ContentConsumer() {
   return (
     <div className="flex flex-col min-h-screen">
 
-<header className="relative bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center py-16 overflow-hidden">
-  {/* Decorative SVG Background */}
-  <div className="absolute inset-0 opacity-20">
-    <svg
-      className="w-full h-full"
-      xmlns="http://www.w3.org/2000/svg"
-      preserveAspectRatio="none"
-      viewBox="0 0 1440 320"
-    >
-      <path
-        fill="currentColor"
-        d="M0,224L48,208C96,192,192,160,288,138.7C384,117,480,107,576,112C672,117,768,139,864,154.7C960,171,1056,181,1152,186.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-      ></path>
-    </svg>
-  </div>
-
+<header className="w-full bg-blue-700 text-white text-center py-16">
   {/* Content Container */}
-  <div className="relative z-10 max-w-4xl mx-auto px-4">
-    <h1 className="text-5xl md:text-6xl font-bold drop-shadow-lg">
-      Utilities Customer Support
+  <div className="max-w-4xl mx-auto px-4">
+    <h1 className="text-5xl md:text-6xl font-bold">
+      Content Customer Support
     </h1>
-    <p className="mt-4 text-xl md:text-2xl max-w-2xl mx-auto drop-shadow-md">
+    <p className="mt-4 text-xl md:text-2xl max-w-2xl mx-auto">
       Your Trusted Partner for Resolving Utility-Related Queries Efficiently
     </p>
 
@@ -442,125 +427,84 @@ function ContentConsumer() {
     <div className="mt-8 flex justify-center space-x-4">
       <a
         href="#support"
-        className="inline-block bg-red-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-red-700 transition transform hover:scale-105"
+        className="inline-block bg-white text-blue-700 font-semibold py-3 px-6 rounded-full shadow-md
+                   hover:bg-blue-100 transition transform hover:scale-105"
       >
         Get Support
       </a>
       <a
         href="#contact"
-        className="inline-block bg-gray-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-800 transition transform hover:scale-105"
+        className="inline-block bg-white text-blue-700 font-semibold py-3 px-6 rounded-full shadow-md
+                   hover:bg-blue-100 transition transform hover:scale-105"
       >
         Contact Us
       </a>
     </div>
-  </div>
-
-  {/* Decorative Gradient Overlay */}
-  <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-transparent to-gray-900 opacity-20">
-    <svg viewBox="0 0 1440 320">
-      <path
-        fill="currentColor"
-        d="M0,224L48,208C96,192,192,160,288,138.7C384,117,480,107,576,112C672,117,768,139,864,154.7C960,171,1056,181,1152,186.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-      ></path>
-    </svg>
   </div>
 </header>
 
 
 
 
-{/* 
+<nav className="bg-teal-50 text-gray-800 flex flex-wrap justify-center p-6 shadow-md">
+  <a
+    href="#streaming"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    Streaming Services
+  </a>
+  <a
+    href="#socialmedia"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    Social Media Content
+  </a>
+  <a
+    href="#tvshows"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    TV Shows
+  </a>
+  <a
+    href="#movies"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    Movies
+  </a>
+  <a
+    href="#gaming"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    Gaming Content
+  </a>
+  <a
+    href="#podcasts"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    Podcasts
+  </a>
+  <a
+    href="#tiktok"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    TikTok Trends
+  </a>
+  <a
+    href="#news"
+    className="mx-2 my-2 px-4 py-3 bg-white rounded-md shadow-md
+               transition transform hover:scale-105 hover:bg-teal-100"
+  >
+    News &amp; Information
+  </a>
+</nav>
 
-
-      <header className="relative bg-gradient-to-r from-blue-600 to-indigo-500 text-white text-center py-12 overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-white opacity-20">
-          <svg viewBox="0 0 1440 320">
-            <path
-              fill="currentColor"
-              d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,165.3C672,171,768,149,864,144C960,139,1056,149,1152,165.3C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-
-        <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-extrabold drop-shadow-lg">
-            Content Consumption Customer Support
-          </h1>
-          <p className="mt-4 text-xl md:text-2xl max-w-2xl mx-auto drop-shadow-md">
-            Frequently Asked Questions and Resources for Entertainment and Media Queries
-          </p>
-
-          <div className="mt-8">
-            <a
-              href="#contact"
-              className="inline-block bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100 transition transform hover:scale-105"
-            >
-              Get in Touch
-            </a>
-          </div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-transparent to-white opacity-20">
-          <svg viewBox="0 0 1440 320">
-            <path
-              fill="currentColor"
-              d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,165.3C672,171,768,149,864,144C960,139,1056,149,1152,165.3C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-      </header> */}
-
-      {/* Navigation */}
-      <nav className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white flex flex-wrap justify-center p-6 shadow-lg rounded-b-lg">
-        <a
-          href="#streaming"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          Streaming Services
-        </a>
-        <a
-          href="#socialmedia"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          Social Media Content
-        </a>
-        <a
-          href="#tvshows"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          TV Shows
-        </a>
-        <a
-          href="#movies"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          Movies
-        </a>
-        <a
-          href="#gaming"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          Gaming Content
-        </a>
-        <a
-          href="#podcasts"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          Podcasts
-        </a>
-        <a
-          href="#tiktok"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          TikTok Trends
-        </a>
-        <a
-          href="#news"
-          className="mx-4 my-2 px-4 py-3 bg-blue-700 rounded-lg hover:bg-indigo-700 transition-colors transform hover:scale-105 shadow-md"
-        >
-          News &amp; Information
-        </a>
-      </nav>
 
       {/* Main Content */}
       <main className="flex-grow bg-gray-100 p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
